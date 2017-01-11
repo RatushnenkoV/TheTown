@@ -1,0 +1,65 @@
+﻿user (2017-01-11 21:34:00): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where id = 1' at line 1
+user (2017-01-11 21:34:00): c00    0
+user (2017-01-11 21:34:00): c01    1
+user (2017-01-11 21:34:00): c02    0
+user (2017-01-11 21:34:00): c03    0
+user (2017-01-11 21:34:00): c04    0
+user (2017-01-11 21:34:00): c10    2
+user (2017-01-11 21:34:00): c11    0
+user (2017-01-11 21:34:00): c12    0
+user (2017-01-11 21:34:00): c13    2
+user (2017-01-11 21:34:00): c14    0
+user (2017-01-11 21:34:00): c20    
+user (2017-01-11 21:34:00): 23You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+user (2017-01-11 21:34:27): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where id = 1' at line 1
+user (2017-01-11 21:34:27): c00    0
+user (2017-01-11 21:34:27): c01    1
+user (2017-01-11 21:34:27): c02    0
+user (2017-01-11 21:34:27): c03    0
+user (2017-01-11 21:34:27): c04    0
+user (2017-01-11 21:34:28): c10    2
+user (2017-01-11 21:34:28): c11    0
+user (2017-01-11 21:34:28): c12    0
+user (2017-01-11 21:34:28): c13    2
+user (2017-01-11 21:34:28): c14    0
+user (2017-01-11 21:34:28): c20    0
+user (2017-01-11 21:34:28): c21    0
+user (2017-01-11 21:34:28): c22    0
+user (2017-01-11 21:34:28): c23    0
+user (2017-01-11 21:34:28): c24    0
+user (2017-01-11 21:34:28): c30    0
+user (2017-01-11 21:34:28): c31    0
+user (2017-01-11 21:34:28): c32    0
+user (2017-01-11 21:34:28): c33    0
+user (2017-01-11 21:34:28): c34    0
+user (2017-01-11 21:34:28): c40    0
+user (2017-01-11 21:34:28): c41    0
+user (2017-01-11 21:34:28): c42    0
+user (2017-01-11 21:34:28): c43    0
+user (2017-01-11 21:34:28): c44    0
+user (2017-01-11 21:34:39): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where id = 1' at line 1
+user (2017-01-11 21:34:39): c00    0
+user (2017-01-11 21:34:39): c01    1
+user (2017-01-11 21:34:39): c02    0
+user (2017-01-11 21:34:39): c03    0
+user (2017-01-11 21:34:39): c04    0
+user (2017-01-11 21:34:39): c10    0
+user (2017-01-11 21:34:39): c11    0
+user (2017-01-11 21:34:39): c12    0
+user (2017-01-11 21:34:39): c13    2
+user (2017-01-11 21:34:39): c14    0
+user (2017-01-11 21:34:39): c20    0
+user (2017-01-11 21:34:39): c21    1
+user (2017-01-11 21:34:39): c22    0
+user (2017-01-11 21:34:39): c23    0
+user (2017-01-11 21:34:39): c24    0
+user (2017-01-11 21:34:39): c30    0
+user (2017-01-11 21:34:39): c31    0
+user (2017-01-11 21:34:39): c32    0
+user (2017-01-11 21:34:39): c33    0
+user (2017-01-11 21:34:39): c34    0
+user (2017-01-11 21:34:39): c40    0
+user (2017-01-11 21:34:39): c41    0
+user (2017-01-11 21:34:39): c42    0
+user (2017-01-11 21:34:39): c43    0
+user (2017-01-11 21:34:39): c44    0

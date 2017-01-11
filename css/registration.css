@@ -1,0 +1,42 @@
+.block{
+	background: #cc9;
+	border: 2px solid black;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	border-radius: 10px;
+	width: 280px;
+	padding: 10px;
+	font-size: 15px;	
+}
+
+.block input{
+	width: 270px;
+	padding: 4px;
+	margin-bottom: 10px;
+}
+
+.block .button{
+	width: 100px;
+}
+
+#mainBlock{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	background: #cc9;
+	border: 2px solid black;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	border-radius: 10px;
+	width: 160px;
+	padding: 20px;
+	padding-top: 0px;
+	font-size: 18px;
+}
+
+#mainBlock tr td{
+	vertical-align: top; 
+}
+
+#uLogin{
+	width: 180px;
+	margin: 0;
+}
