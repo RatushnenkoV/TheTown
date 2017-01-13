@@ -14,6 +14,7 @@ header{
 	font-size: 30px;
 	text-shadow: 0 0 4px black;
 	padding-left: 10px;
+	z-index: -100px;
 }
 
 .button, .lockedButton{

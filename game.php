@@ -1,8 +1,20 @@
 ﻿<?php 
-	if ($_GET[user]){
-		$id = $_GET[user];
-		echo '<script type="text/javascript">var USER_ID ='.$id.';</script>';
-	}	
+	include 'php/dbconnect.php';
+
+	if ($_POST['token']){
+		$s = file_get_contents('http://ulogin.ru/token.php?token=' . $_POST['token'] . '&host=' . $_SERVER['HTTP_HOST']);
+		$user = json_decode($s, true);
+		$socid = $user['identity'];
+		
+		$r=mysql_query("select id from users where id = '".$socid."'");
+		if (!($f = mysql_fetch_array($r))){
+			mysql_query("insert into users (socnet) values ('$socid')");
+			$r = mysql_query("select id from users where socnet = '$socid'");
+			$f = mysql_fetch_array($r);
+		}
+		$id .= $f[id];
+		echo '<script type="text/javascript">var USER_ID = '.$id.'</script>';
+	}
 ?>
 
 <!DOCTYPE html>
@@ -53,7 +65,7 @@
 				<table id="field">
 				</table>
 			</td>
-			<td width="400px" style="vertical-align: top;">
+			<td width="400px" id="rightBlocks">
 				<div id="infoBlock">
 					<div id="infoBlockText"></div>
 					<div class="button" onclick="clearSelectedCell();"> Удалить </div>

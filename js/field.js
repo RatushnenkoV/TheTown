@@ -4,12 +4,12 @@ function unselect(){
 	selectedCell.firstChild.style.bottom = "0px";
 	selectedCell.firstChild.style.right = "0px";
 	selectedCell = null;
-	hideBlocks();
 }
 
 function onCellClick(cell){
 	if (selectedCell == cell){
 		unselect();
+		hideBlocks();
 	} else {
 		if (selectedCell != null){
 			unselect();

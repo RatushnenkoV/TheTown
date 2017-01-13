@@ -1,3 +1,3 @@
 ﻿<?php 
-	echo '<script type="text/javascript">window.location.href = "game.php"</script>';
+	echo '<script type="text/javascript">window.location.href = "registration.php"</script>';
  ?>

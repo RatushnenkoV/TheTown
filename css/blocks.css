@@ -1,3 +1,8 @@
+#rightBlocks{
+	vertical-align: top;
+	position: relative;
+}
+
 #infoBlock, #buildListBlock{
 	background: #cc9;
 	border: 2px solid black;
@@ -5,13 +10,14 @@
 	border-radius: 10px;
 	width: 280px;
 	padding: 10px;
+	padding-top: 0px;
 	font-size: 15px;
 	
 	max-height: 400px;	
 	overflow-y: auto;
 	display: none;
+	position: absolute;
 
-	float: right;
 	margin: 20px;
 }
 

@@ -17,6 +17,7 @@
 /* фф (свойство больше не работает, других способов тоже нет)*/
 #mail { overflow: -moz-scrollbars-none; }
 
+
 #mail ul li{
 	margin: 10px;
 	background: #eec;
@@ -25,8 +26,7 @@
 	border-radius: 10px;
 	font-size: 15px;
 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
-
-	transition: 1s  ease-out ;
+	position: relative;
 }
 
 #mail .button{
